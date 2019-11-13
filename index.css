@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+}
+body {
+  background: #eee;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.Hacker {
+  background: #ff6600;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  display: flex;
+}
+li {
+  padding-right: 10px;
+}
+ul .Login {
+  padding-left: 30%;
+}
+.Articles {
+  background: lightgray;
+  margin: 0;
+  padding-top: 10px;
+}
+.Articles li,
+.Articles p {
+  padding-bottom: 5px;
+}
+.Anyname,
+.Search {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+footer {
+  border-top: 1px #ff6600 solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: lightgray;
+}
+input {
+  border-color: lightblue;
+}
