@@ -46,3 +46,7 @@ footer {
 input {
   border-color: lightblue;
 }
+.comments:hover{
+  cursor: pointer;
+  color: blue;
+}

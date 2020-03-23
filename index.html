@@ -2,6 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="main.js"></script>
   </head>
 
   <body>
@@ -10,68 +11,36 @@
         <div>
         <ul class="Hacker">
           <li>
+            <a href="localhost:3000/index.html">
             Hacker News
-          </li>
+          </a>
           <li>
             New |
           </li>
           <li>Past |</li>
-          <li>Comments |</li>
+          <li onclick="displayComments()" class="comments">Comments |</li>
           <li>Ask |</li>
           <li>Show |</li>
           <li>Jobs |</li>
           <li>Submit</li>
-          <li class="Login">Login</li>
+          <li onclick="displayLogin()" class="login">Login</li>
         </div>
 
         </ul>
       </div>
     </header>
 
-    <div class= 'Articles'>
-      <ol>
-<li >
-<a href="www.google.com">
-The Google Squeeze (stratechery.com)
-</a>
-</li>
-<p>2093 points by vyCaseyHisName 4 Hours Ago | (Hide) | 158 Comments</p>
+    
+    <div id='Articles'>
 
-<li >
-    <a href="www.google.com">
-    The Google Squeeze (stratechery.com)
-    </a>
-    </li>
-    <p>2093 points by vyCaseyHisName 4 Hours Ago | (Hide) | 158 Comments</p>
 
-    <li >
-        <a href="www.google.com">
-        The Google Squeeze (stratechery.com)
-        </a>
-        </li>
-        <p>2093 points by vyCaseyHisName 4 Hours Ago | (Hide) | 158 Comments</p>
 
-        <li >
-            <a href="www.google.com">
-            The Google Squeeze (stratechery.com)
-            </a>
-            </li>
-            <p>2093 points by vyCaseyHisName 4 Hours Ago | (Hide) | 158 Comments</p>
+      <div id="articles"><script>displayArticles()</script></div>  
+      <div id="comments">
 
-            <li >
-                <a href="www.google.com">
-                The Google Squeeze (stratechery.com)
-                </a>
-                </li>
-                <p>2093 points by vyCaseyHisName 4 Hours Ago | (Hide) | 158 Comments</p>
+</div>
                 
 
-
-
-
-
-</ol>
-    </div>
     <footer>
       <div class="Anyname">
         <ul>
